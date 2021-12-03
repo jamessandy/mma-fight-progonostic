@@ -1,0 +1,1352 @@
+{
+  "contractName": "Greeting",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "status",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [],
+      "name": "updatedate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [],
+      "name": "getOracleData",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getOracleData\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"status\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"updatedate\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Greeting.sol\":\"Greeting\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Greeting.sol\":{\"keccak256\":\"0x6ab835d14f7bde7c94e634f1313374a0197b55385377d9276e254806f7a5402f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7e9d6174226faebaa3559b24b1f2fee7d5564e6ad52dfbfc3372d1f16617df05\",\"dweb:/ipfs/QmNtF5xovD7oRgCYdLJoLh86CR5mVznUGyPLP9i2GEWnE1\"]},\"project:/contracts/Oracle.sol\":{\"keccak256\":\"0xcb30c52321f03e60842732f9414b8ac4d3bc250b12f1cb1f1f4b48abc3bf83a7\",\"urls\":[\"bzz-raw://26ef9fb1b71b7488b121e6ff1588ae247751c498008a38a87462bd81c6f4ad60\",\"dweb:/ipfs/QmcvnTDh5dKYR9LzPy1ajXXvSYTYpLxCwnXDaEkJCgAMoq\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506104bf806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063200d2ed214610046578063330deac4146100c95780636481c5e6146100e7575b600080fd5b61004e61016a565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561008e578082015181840152602081019050610073565b50505050905090810190601f1680156100bb5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100d1610208565b6040518082815260200191505060405180910390f35b6100ef61020e565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561012f578082015181840152602081019050610114565b50505050905090810190601f16801561015c5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102005780601f106101d557610100808354040283529160200191610200565b820191906000526020600020905b8154815290600101906020018083116101e357829003601f168201915b505050505081565b60015481565b606060007fe0b3ed55241d8feffa6c3654deb863d704a87a158ebc0bba224c655c5b9b619260001b90506000730a7eac657bd7fff5f8740b0608b8ef1ea5170adf90506000819050606060008273ffffffffffffffffffffffffffffffffffffffff1663986e791a866040518263ffffffff1660e01b81526004018082815260200191505060006040518083038186803b1580156102ab57600080fd5b505afa1580156102bf573d6000803e3d6000fd5b505050506040513d6000823e3d601f19601f8201168201806040525060408110156102e957600080fd5b810190808051604051939291908464010000000082111561030957600080fd5b8382019150602082018581111561031f57600080fd5b825186600182028301116401000000008211171561033c57600080fd5b8083526020830192505050908051906020019080838360005b83811015610370578082015181840152602081019050610355565b50505050905090810190601f16801561039d5780820380516001836020036101000a031916815260200191505b50604052602001805190602001909291905050509150915081600090805190602001906103cb9291906103de565b5080600181905550819550505050505090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282610414576000855561045b565b82601f1061042d57805160ff191683800117855561045b565b8280016001018555821561045b579182015b8281111561045a57825182559160200191906001019061043f565b5b509050610468919061046c565b5090565b5b8082111561048557600081600090555060010161046d565b509056fea26469706673582212205e018382fd00e5a56099343594b453982dae257543e6f1f3247b370166a39bc164736f6c63430007040033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063200d2ed214610046578063330deac4146100c95780636481c5e6146100e7575b600080fd5b61004e61016a565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561008e578082015181840152602081019050610073565b50505050905090810190601f1680156100bb5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100d1610208565b6040518082815260200191505060405180910390f35b6100ef61020e565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561012f578082015181840152602081019050610114565b50505050905090810190601f16801561015c5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102005780601f106101d557610100808354040283529160200191610200565b820191906000526020600020905b8154815290600101906020018083116101e357829003601f168201915b505050505081565b60015481565b606060007fe0b3ed55241d8feffa6c3654deb863d704a87a158ebc0bba224c655c5b9b619260001b90506000730a7eac657bd7fff5f8740b0608b8ef1ea5170adf90506000819050606060008273ffffffffffffffffffffffffffffffffffffffff1663986e791a866040518263ffffffff1660e01b81526004018082815260200191505060006040518083038186803b1580156102ab57600080fd5b505afa1580156102bf573d6000803e3d6000fd5b505050506040513d6000823e3d601f19601f8201168201806040525060408110156102e957600080fd5b810190808051604051939291908464010000000082111561030957600080fd5b8382019150602082018581111561031f57600080fd5b825186600182028301116401000000008211171561033c57600080fd5b8083526020830192505050908051906020019080838360005b83811015610370578082015181840152602081019050610355565b50505050905090810190601f16801561039d5780820380516001836020036101000a031916815260200191505b50604052602001805190602001909291905050509150915081600090805190602001906103cb9291906103de565b5080600181905550819550505050505090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282610414576000855561045b565b82601f1061042d57805160ff191683800117855561045b565b8280016001018555821561045b579182015b8281111561045a57825182559160200191906001019061043f565b5b509050610468919061046c565b5090565b5b8082111561048557600081600090555060010161046d565b509056fea26469706673582212205e018382fd00e5a56099343594b453982dae257543e6f1f3247b370166a39bc164736f6c63430007040033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "106:551:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "106:551:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;131:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;157:25;;;:::i;:::-;;;;;;;;;;;;;;;;;;;189:466;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;131:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;157:25::-;;;;:::o;189:466::-;230:13;255:16;274:66;255:85;;;;350:21;374:42;350:66;;426:21;457:13;426:45;;482:19;503:12;519:14;:24;;;557:8;519:56;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;481:94;;;;594:5;585:6;:14;;;;;;;;;;;;:::i;:::-;;622:4;609:10;:17;;;;643:5;636:12;;;;;;;189:466;:::o;-1:-1:-1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.8.0;\n\nimport {Oracle} from  \"./Oracle.sol\";\n\n\ncontract Greeting {\n\n    string public status;\n    uint256 public updatedate;\n\n    function getOracleData() public returns (string memory) {\n        bytes32 oracleId = 0xe0b3ed55241d8feffa6c3654deb863d704a87a158ebc0bba224c655c5b9b6192;\n        address oracleAddress = 0x0a7eAc657bd7fFF5F8740B0608B8EF1eA5170aDf;\n        Oracle oracleContract = Oracle(oracleAddress);\n        (string memory value, uint256 date) = oracleContract.getString(\n            oracleId\n        );\n        status = value;\n        updatedate = date;\n        return value;\n    }\n}",
+  "sourcePath": "/Users/user/Downloads/dapp-iexec/contracts/Greeting.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Greeting.sol",
+    "exportedSymbols": {
+      "Greeting": [
+        47
+      ],
+      "Oracle": [
+        59
+      ]
+    },
+    "id": 48,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "absolutePath": "project:/contracts/Oracle.sol",
+        "file": "./Oracle.sol",
+        "id": 3,
+        "nodeType": "ImportDirective",
+        "scope": 48,
+        "sourceUnit": 60,
+        "src": "66:37:0",
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 2,
+              "name": "Oracle",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "src": "74:6:0",
+              "typeDescriptions": {}
+            }
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 47,
+        "linearizedBaseContracts": [
+          47
+        ],
+        "name": "Greeting",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "functionSelector": "200d2ed2",
+            "id": 5,
+            "mutability": "mutable",
+            "name": "status",
+            "nodeType": "VariableDeclaration",
+            "scope": 47,
+            "src": "131:20:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 4,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "131:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "functionSelector": "330deac4",
+            "id": 7,
+            "mutability": "mutable",
+            "name": "updatedate",
+            "nodeType": "VariableDeclaration",
+            "scope": 47,
+            "src": "157:25:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 6,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "157:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 45,
+              "nodeType": "Block",
+              "src": "245:410:0",
+              "statements": [
+                {
+                  "assignments": [
+                    13
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 13,
+                      "mutability": "mutable",
+                      "name": "oracleId",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 45,
+                      "src": "255:16:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 12,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "255:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 15,
+                  "initialValue": {
+                    "hexValue": "307865306233656435353234316438666566666136633336353464656238363364373034613837613135386562633062626132323463363535633562396236313932",
+                    "id": 14,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "number",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "274:66:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_rational_101635981716530061568658654813228001585111470822690145709146459118871315702162_by_1",
+                      "typeString": "int_const 1016...(70 digits omitted)...2162"
+                    },
+                    "value": "0xe0b3ed55241d8feffa6c3654deb863d704a87a158ebc0bba224c655c5b9b6192"
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "255:85:0"
+                },
+                {
+                  "assignments": [
+                    17
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 17,
+                      "mutability": "mutable",
+                      "name": "oracleAddress",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 45,
+                      "src": "350:21:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "typeName": {
+                        "id": 16,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "350:7:0",
+                        "stateMutability": "nonpayable",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 19,
+                  "initialValue": {
+                    "hexValue": "307830613765416336353762643766464635463837343042303630384238454631654135313730614466",
+                    "id": 18,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "number",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "374:42:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
+                    },
+                    "value": "0x0a7eAc657bd7fFF5F8740B0608B8EF1eA5170aDf"
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "350:66:0"
+                },
+                {
+                  "assignments": [
+                    21
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 21,
+                      "mutability": "mutable",
+                      "name": "oracleContract",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 45,
+                      "src": "426:21:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Oracle_$59",
+                        "typeString": "contract Oracle"
+                      },
+                      "typeName": {
+                        "id": 20,
+                        "name": "Oracle",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 59,
+                        "src": "426:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Oracle_$59",
+                          "typeString": "contract Oracle"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 25,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "id": 23,
+                        "name": "oracleAddress",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 17,
+                        "src": "457:13:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "id": 22,
+                      "name": "Oracle",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 59,
+                      "src": "450:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_contract$_Oracle_$59_$",
+                        "typeString": "type(contract Oracle)"
+                      }
+                    },
+                    "id": 24,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "450:21:0",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Oracle_$59",
+                      "typeString": "contract Oracle"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "426:45:0"
+                },
+                {
+                  "assignments": [
+                    27,
+                    29
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 27,
+                      "mutability": "mutable",
+                      "name": "value",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 45,
+                      "src": "482:19:0",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 26,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "482:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "visibility": "internal"
+                    },
+                    {
+                      "constant": false,
+                      "id": 29,
+                      "mutability": "mutable",
+                      "name": "date",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 45,
+                      "src": "503:12:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 28,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "503:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 34,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "id": 32,
+                        "name": "oracleId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 13,
+                        "src": "557:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      ],
+                      "expression": {
+                        "id": 30,
+                        "name": "oracleContract",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 21,
+                        "src": "519:14:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Oracle_$59",
+                          "typeString": "contract Oracle"
+                        }
+                      },
+                      "id": 31,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "getString",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 58,
+                      "src": "519:24:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_bytes32_$returns$_t_string_memory_ptr_$_t_uint256_$",
+                        "typeString": "function (bytes32) view external returns (string memory,uint256)"
+                      }
+                    },
+                    "id": 33,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "519:56:0",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_string_memory_ptr_$_t_uint256_$",
+                      "typeString": "tuple(string memory,uint256)"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "481:94:0"
+                },
+                {
+                  "expression": {
+                    "id": 37,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 35,
+                      "name": "status",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 5,
+                      "src": "585:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 36,
+                      "name": "value",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 27,
+                      "src": "594:5:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "585:14:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 38,
+                  "nodeType": "ExpressionStatement",
+                  "src": "585:14:0"
+                },
+                {
+                  "expression": {
+                    "id": 41,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 39,
+                      "name": "updatedate",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 7,
+                      "src": "609:10:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 40,
+                      "name": "date",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 29,
+                      "src": "622:4:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "609:17:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 42,
+                  "nodeType": "ExpressionStatement",
+                  "src": "609:17:0"
+                },
+                {
+                  "expression": {
+                    "id": 43,
+                    "name": "value",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 27,
+                    "src": "643:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory_ptr",
+                      "typeString": "string memory"
+                    }
+                  },
+                  "functionReturnParameters": 11,
+                  "id": 44,
+                  "nodeType": "Return",
+                  "src": "636:12:0"
+                }
+              ]
+            },
+            "functionSelector": "6481c5e6",
+            "id": 46,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getOracleData",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 8,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "211:2:0"
+            },
+            "returnParameters": {
+              "id": 11,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 46,
+                  "src": "230:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 9,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "230:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "229:15:0"
+            },
+            "scope": 47,
+            "src": "189:466:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 48,
+        "src": "106:551:0"
+      }
+    ],
+    "src": "32:625:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Greeting.sol",
+      "exportedSymbols": {
+        "Greeting": [
+          47
+        ],
+        "Oracle": [
+          59
+        ]
+      },
+      "license": "MIT"
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.8",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 60,
+          "absolutePath": "project:/contracts/Oracle.sol",
+          "file": "./Oracle.sol",
+          "scope": 48,
+          "symbolAliases": [
+            {
+              "foreign": {
+                "attributes": {
+                  "overloadedDeclarations": [
+                    null
+                  ],
+                  "value": "Oracle"
+                },
+                "id": 2,
+                "name": "Identifier",
+                "src": "74:6:0"
+              }
+            }
+          ],
+          "unitAlias": ""
+        },
+        "id": 3,
+        "name": "ImportDirective",
+        "src": "66:37:0"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            47
+          ],
+          "name": "Greeting",
+          "scope": 48
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "functionSelector": "200d2ed2",
+              "mutability": "mutable",
+              "name": "status",
+              "scope": 47,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 4,
+                "name": "ElementaryTypeName",
+                "src": "131:6:0"
+              }
+            ],
+            "id": 5,
+            "name": "VariableDeclaration",
+            "src": "131:20:0"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "functionSelector": "330deac4",
+              "mutability": "mutable",
+              "name": "updatedate",
+              "scope": 47,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 6,
+                "name": "ElementaryTypeName",
+                "src": "157:7:0"
+              }
+            ],
+            "id": 7,
+            "name": "VariableDeclaration",
+            "src": "157:25:0"
+          },
+          {
+            "attributes": {
+              "functionSelector": "6481c5e6",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getOracleData",
+              "scope": 47,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 8,
+                "name": "ParameterList",
+                "src": "211:2:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "scope": 46,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 9,
+                        "name": "ElementaryTypeName",
+                        "src": "230:6:0"
+                      }
+                    ],
+                    "id": 10,
+                    "name": "VariableDeclaration",
+                    "src": "230:13:0"
+                  }
+                ],
+                "id": 11,
+                "name": "ParameterList",
+                "src": "229:15:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        13
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "mutability": "mutable",
+                          "name": "oracleId",
+                          "scope": 45,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "bytes32",
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "name": "bytes32",
+                              "type": "bytes32"
+                            },
+                            "id": 12,
+                            "name": "ElementaryTypeName",
+                            "src": "255:7:0"
+                          }
+                        ],
+                        "id": 13,
+                        "name": "VariableDeclaration",
+                        "src": "255:16:0"
+                      },
+                      {
+                        "attributes": {
+                          "hexvalue": "307865306233656435353234316438666566666136633336353464656238363364373034613837613135386562633062626132323463363535633562396236313932",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "token": "number",
+                          "type": "int_const 1016...(70 digits omitted)...2162",
+                          "value": "0xe0b3ed55241d8feffa6c3654deb863d704a87a158ebc0bba224c655c5b9b6192"
+                        },
+                        "id": 14,
+                        "name": "Literal",
+                        "src": "274:66:0"
+                      }
+                    ],
+                    "id": 15,
+                    "name": "VariableDeclarationStatement",
+                    "src": "255:85:0"
+                  },
+                  {
+                    "attributes": {
+                      "assignments": [
+                        17
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "mutability": "mutable",
+                          "name": "oracleAddress",
+                          "scope": 45,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "address",
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "name": "address",
+                              "stateMutability": "nonpayable",
+                              "type": "address"
+                            },
+                            "id": 16,
+                            "name": "ElementaryTypeName",
+                            "src": "350:7:0"
+                          }
+                        ],
+                        "id": 17,
+                        "name": "VariableDeclaration",
+                        "src": "350:21:0"
+                      },
+                      {
+                        "attributes": {
+                          "hexvalue": "307830613765416336353762643766464635463837343042303630384238454631654135313730614466",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "token": "number",
+                          "type": "address payable",
+                          "value": "0x0a7eAc657bd7fFF5F8740B0608B8EF1eA5170aDf"
+                        },
+                        "id": 18,
+                        "name": "Literal",
+                        "src": "374:42:0"
+                      }
+                    ],
+                    "id": 19,
+                    "name": "VariableDeclarationStatement",
+                    "src": "350:66:0"
+                  },
+                  {
+                    "attributes": {
+                      "assignments": [
+                        21
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "mutability": "mutable",
+                          "name": "oracleContract",
+                          "scope": 45,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "contract Oracle",
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "name": "Oracle",
+                              "referencedDeclaration": 59,
+                              "type": "contract Oracle"
+                            },
+                            "id": 20,
+                            "name": "UserDefinedTypeName",
+                            "src": "426:6:0"
+                          }
+                        ],
+                        "id": 21,
+                        "name": "VariableDeclaration",
+                        "src": "426:21:0"
+                      },
+                      {
+                        "attributes": {
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "isStructConstructorCall": false,
+                          "lValueRequested": false,
+                          "names": [
+                            null
+                          ],
+                          "tryCall": false,
+                          "type": "contract Oracle",
+                          "type_conversion": true
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              ],
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 59,
+                              "type": "type(contract Oracle)",
+                              "value": "Oracle"
+                            },
+                            "id": 22,
+                            "name": "Identifier",
+                            "src": "450:6:0"
+                          },
+                          {
+                            "attributes": {
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 17,
+                              "type": "address",
+                              "value": "oracleAddress"
+                            },
+                            "id": 23,
+                            "name": "Identifier",
+                            "src": "457:13:0"
+                          }
+                        ],
+                        "id": 24,
+                        "name": "FunctionCall",
+                        "src": "450:21:0"
+                      }
+                    ],
+                    "id": 25,
+                    "name": "VariableDeclarationStatement",
+                    "src": "426:45:0"
+                  },
+                  {
+                    "attributes": {
+                      "assignments": [
+                        27,
+                        29
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "mutability": "mutable",
+                          "name": "value",
+                          "scope": 45,
+                          "stateVariable": false,
+                          "storageLocation": "memory",
+                          "type": "string",
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "name": "string",
+                              "type": "string"
+                            },
+                            "id": 26,
+                            "name": "ElementaryTypeName",
+                            "src": "482:6:0"
+                          }
+                        ],
+                        "id": 27,
+                        "name": "VariableDeclaration",
+                        "src": "482:19:0"
+                      },
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "mutability": "mutable",
+                          "name": "date",
+                          "scope": 45,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "uint256",
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "name": "uint256",
+                              "type": "uint256"
+                            },
+                            "id": 28,
+                            "name": "ElementaryTypeName",
+                            "src": "503:7:0"
+                          }
+                        ],
+                        "id": 29,
+                        "name": "VariableDeclaration",
+                        "src": "503:12:0"
+                      },
+                      {
+                        "attributes": {
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "isStructConstructorCall": false,
+                          "lValueRequested": false,
+                          "names": [
+                            null
+                          ],
+                          "tryCall": false,
+                          "type": "tuple(string memory,uint256)",
+                          "type_conversion": false
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_bytes32",
+                                  "typeString": "bytes32"
+                                }
+                              ],
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "member_name": "getString",
+                              "referencedDeclaration": 58,
+                              "type": "function (bytes32) view external returns (string memory,uint256)"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 21,
+                                  "type": "contract Oracle",
+                                  "value": "oracleContract"
+                                },
+                                "id": 30,
+                                "name": "Identifier",
+                                "src": "519:14:0"
+                              }
+                            ],
+                            "id": 31,
+                            "name": "MemberAccess",
+                            "src": "519:24:0"
+                          },
+                          {
+                            "attributes": {
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 13,
+                              "type": "bytes32",
+                              "value": "oracleId"
+                            },
+                            "id": 32,
+                            "name": "Identifier",
+                            "src": "557:8:0"
+                          }
+                        ],
+                        "id": 33,
+                        "name": "FunctionCall",
+                        "src": "519:56:0"
+                      }
+                    ],
+                    "id": 34,
+                    "name": "VariableDeclarationStatement",
+                    "src": "481:94:0"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "string storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 5,
+                              "type": "string storage ref",
+                              "value": "status"
+                            },
+                            "id": 35,
+                            "name": "Identifier",
+                            "src": "585:6:0"
+                          },
+                          {
+                            "attributes": {
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 27,
+                              "type": "string memory",
+                              "value": "value"
+                            },
+                            "id": 36,
+                            "name": "Identifier",
+                            "src": "594:5:0"
+                          }
+                        ],
+                        "id": 37,
+                        "name": "Assignment",
+                        "src": "585:14:0"
+                      }
+                    ],
+                    "id": 38,
+                    "name": "ExpressionStatement",
+                    "src": "585:14:0"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 7,
+                              "type": "uint256",
+                              "value": "updatedate"
+                            },
+                            "id": 39,
+                            "name": "Identifier",
+                            "src": "609:10:0"
+                          },
+                          {
+                            "attributes": {
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 29,
+                              "type": "uint256",
+                              "value": "date"
+                            },
+                            "id": 40,
+                            "name": "Identifier",
+                            "src": "622:4:0"
+                          }
+                        ],
+                        "id": 41,
+                        "name": "Assignment",
+                        "src": "609:17:0"
+                      }
+                    ],
+                    "id": 42,
+                    "name": "ExpressionStatement",
+                    "src": "609:17:0"
+                  },
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 11
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "overloadedDeclarations": [
+                            null
+                          ],
+                          "referencedDeclaration": 27,
+                          "type": "string memory",
+                          "value": "value"
+                        },
+                        "id": 43,
+                        "name": "Identifier",
+                        "src": "643:5:0"
+                      }
+                    ],
+                    "id": 44,
+                    "name": "Return",
+                    "src": "636:12:0"
+                  }
+                ],
+                "id": 45,
+                "name": "Block",
+                "src": "245:410:0"
+              }
+            ],
+            "id": 46,
+            "name": "FunctionDefinition",
+            "src": "189:466:0"
+          }
+        ],
+        "id": 47,
+        "name": "ContractDefinition",
+        "src": "106:551:0"
+      }
+    ],
+    "id": 48,
+    "name": "SourceUnit",
+    "src": "32:625:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.4+commit.3f05b770.Emscripten.clang"
+  },
+  "networks": {
+    "1637072743740": {
+      "events": {},
+      "links": {},
+      "address": "0x7D6b444954784936dF7EcCB14b3859b49766604d",
+      "transactionHash": "0x179c4bcc7d2a03632e445d5dc8d71d9a8800ccae0a7c3f7b195993d024c14470"
+    },
+    "1638459585940": {
+      "events": {},
+      "links": {},
+      "address": "0xFaeb2fAc85A1c97a7f07fE2E246688a8Defe3725",
+      "transactionHash": "0x8a3662a85fa67090ab17c0d6e562cb8dcd96745d091549cfcf7d2b2c5d2c8884"
+    }
+  },
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-12-02T15:39:58.243Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
